@@ -1,0 +1,205 @@
+body {
+  background-color: rgb(231, 240, 254);
+}
+.App {
+  text-align: center;
+}
+.navbar {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+.section {
+  height: auto;
+  width: auto;
+  /* background-color: white; */
+  justify-items: center;
+}
+.buttons {
+  background-color: white;
+  border: none;
+  font-weight: 600;
+  font-size: medium;
+  padding: 20px;
+}
+.buttons.buttons:onclick {
+  background-color: rgb(100, 97, 97);
+  border: none;
+  font-weight: 600;
+  font-size: medium;
+  padding: 20px;
+}
+
+.buttons:active {
+  background-color: white;
+  border-bottom: 2px blue;
+  font-weight: 600;
+  font-size: medium;
+  padding: 20px;
+}
+
+#lbutton {
+  border-top-left-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+#rbutton {
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+  position: fixed;
+  right: 0;
+  width: fit-content;
+  margin-right: 10%;
+  margin-top: 5%;
+  border-radius: 10px;
+  justify-content: end;
+  background-color: rgb(59, 89, 135);
+  /* position: absolute;
+  float: right; */
+}
+
+.rankings {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  position: fixed;
+  right: 0;
+  margin-right: 20%;
+  margin-top: 20 rem;
+  color: white;
+}
+
+.ranking-ranks {
+  padding-left: 30%;
+  padding-right: 0%;
+  background-color: rgb(59, 89, 135);
+  border-radius: 10px 0px 0px 10px;
+  font-size: x-large;
+}
+
+.ranking-names {
+  padding-right: 0%;
+  background-color: rgb(59, 89, 135);
+  border-radius: 0px 00px 0 0px 0px;
+  font-size: x-large;
+}
+.ranking-points {
+  padding-right: 30%;
+  background-color: rgb(59, 89, 135);
+  border-radius: 0px 10px 10px 0px;
+  font-size: x-large;
+}
+.names{
+  font-weight: 100;
+}
+
+.listel {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.rank {
+  margin-right: 100px;
+}
+.margdiv {
+  border-bottom: 0.02rem solid white;
+}
+
+
+.rundiv {
+  align-items: right;
+  background-color: aqua;
+}
+#div1{
+  height: 5rem;
+  width: 5rem;
+  background-color: rgb(59, 89, 135);
+  padding-top: 8%;
+  border-radius: 8% 0px 0px 8%;
+}
+#div2{
+  border-radius: 8px 8% 0% 0px;
+ height: 200%;
+ margin-top: 10 rem;
+ padding-top: 16%;
+ /* padding: 50%; */
+
+}
+#div3{
+  border-radius: 0% 8% 8% 0px;
+  padding-top: 8%;
+}
+.div{
+  height: 5rem;
+  width: 5rem;
+  border: 1px soli;
+  background-color: rgb(59, 89, 135);
+}
+.winnerdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  /* height: 30 rem; */
+  margin-top: 15rem;
+  padding: ;
+  margin-left: 8%;
+  /* background-color: black; */
+}
+.manage{
+  display: flex;
+  flex-direction: row;
+  padding: 20 rem;
+}
+/* .div2-text{
+  padding-top: 10rem ;
+} */
+ .winner-text{
+ color: white;
+ font-weight: 100;
+ }
+.winner-ranks{
+  color: white;
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 100%;
+}
+
+.rank2 {
+  margin-top: 6rem; 
+  background-color: rgb(59, 89, 135);
+  padding:15%;
+  color: white;
+  border-radius: 10% 0 0 10% ;
+  
+ 
+
+}
+
+.rank1 {
+  margin-top: 3rem; 
+  background-color: rgb(59, 89, 135);
+  /* border-radius: 100% 100% 0 0 ; */
+  border-radius: 10% 10% 0% 0px;
+  padding: 15%;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  color: white;
+}
+.rank3 {
+  margin-top: 6rem; 
+  background-color: rgb(59, 89, 135);
+  padding:15%;
+  color: white;
+  border-radius: 0% 10% 10% 0% ;
+
+}
